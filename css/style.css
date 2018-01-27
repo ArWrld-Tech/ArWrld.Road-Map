@@ -275,3 +275,34 @@ a:link {
 a:visited {
     color: #7110FF;
 }
+
+#mailchimp {
+    background: #00fff;
+    color: #fff;
+    padding: 20px 15px;
+}
+    #mailchimp input {
+         border: medium none;
+    color: gray;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    width: 300px;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+    }
+        #mailchimp input.email { background: #fff }
+        #mailchimp input.name { background: #fff}
+        #mailchimp input[type="submit"] {
+            background: #7110FF;
+            color: #fff;
+            cursor: pointer;
+            font-size: 15px;
+            width: 35%;
+            padding: 8px 10px;
+
+        }
+            #mailchimp input[type="submit"]:hover { color: #F2C94C }
